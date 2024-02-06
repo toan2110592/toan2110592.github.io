@@ -1,6 +1,6 @@
 import { Link } from "@nextui-org/link";
 import { Snippet } from "@nextui-org/snippet";
-import { Code } from "@nextui-org/code"
+// import { Code } from "@nextui-org/code";
 import { button as buttonStyles } from "@nextui-org/theme";
 import { siteConfig } from "@/config/site";
 import { title, subtitle } from "@/components/primitives";
@@ -42,7 +42,7 @@ export default function Home() {
 			<div className="mt-8">
 				<Snippet hideSymbol hideCopyButton variant="flat">
 					<span>
-						Get started by editing <Code color="primary">app/page.tsx</Code>
+						Updating
 					</span>
 				</Snippet>
 			</div>
